@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+#container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* width: 50%; */
+	/* border: 5px 5px 5px 5px; */
+}
+.box{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	height: 10rem;
+	border: 5px solid black;
+	border-radius: 2rem;
+}
+.red{
+	border: 2rem solid black;
+	border-radius: 50%
+}
